@@ -1,0 +1,26 @@
+<svg width="320" height="360" viewBox="0 0 320 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heart" x1="62" y1="30" x2="264" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#51F4FF"/>
+      <stop offset="0.42" stop-color="#168CFF"/>
+      <stop offset="1" stop-color="#3B1BCE"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="80" y1="38" x2="270" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8FFFF"/>
+      <stop offset="0.5" stop-color="#23C9FF"/>
+      <stop offset="1" stop-color="#7548FF"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-30%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.05 0 0 0 0 0.55 0 0 0 0 1 0 0 0 0.85 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#glow)">
+    <path d="M160 319C141 300 54 224 43 151C34 91 72 45 119 49C141 51 155 62 160 79C166 62 180 51 202 49C249 45 287 91 278 151C267 224 180 300 160 319Z" fill="url(#heart)" stroke="url(#edge)" stroke-width="5"/>
+    <path d="M88 115C108 77 143 86 160 111C177 86 212 77 232 115C247 143 226 180 203 204C184 224 169 237 160 245C151 237 136 224 117 204C94 180 73 143 88 115Z" fill="#071A4A" fill-opacity=".44" stroke="#58EFFF" stroke-opacity=".72" stroke-width="3"/>
+    <path d="M160 112L160 245M91 151H124L137 127L151 176L164 151H191L204 135" stroke="#B9FFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M103 79C117 68 133 67 145 76" stroke="white" stroke-opacity=".7" stroke-width="6" stroke-linecap="round"/>
+    <path d="M66 229L94 202M254 229L226 202" stroke="#2FCBFF" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+  </g>
+</svg>
