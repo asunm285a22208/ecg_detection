@@ -1,0 +1,2 @@
+/api/*  http://43.205.58.46:8000/:splat  200!
+/outputs/*  http://43.205.58.46:8000/outputs/:splat  200!
