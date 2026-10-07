@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/api/*"
+  to = "http://43.205.58.46:8000/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/outputs/*"
+  to = "http://43.205.58.46:8000/outputs/:splat"
+  status = 200
