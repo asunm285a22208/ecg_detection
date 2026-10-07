@@ -75,7 +75,7 @@ type AnalysisHistoryItem = {
   createdAt: string;
 };
 
-const API_URL =  "/api";
+const API_URL =  "http://43.205.58.46:8000";
 
 function formatClassName(className: string) {
   switch (className) {
